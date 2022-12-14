@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+section{
+    position: relative;
+    width: 100%;
+    min-height: 15vh;
+    padding: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(0, 0, 0,05);
+    overflow: hidden;
+}
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo{
+    position: relative;
+    max-width: 150px;
+}
+
+header .navegation ul{
+    position: relative;
+    display: flex;
+}
+header .navegation  li{
+    list-style: none;
+}
+header .navegation li a{
+    display: inline-block;
+    color: #fff;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 19px;
+    margin-left: 100px;
+}
+
+h1,h2{
+    font-weight: 900;
+    color: #b40b0b;
+  }
+  
+  .wrapper{
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  main{
+    display: block;
+    background-color: #FFF;
+  }
+  
+  .container{
+    width: 100%;
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  section.module p{
+    margin-bottom: 40px;
+  }
+  
+  section.module:last-child{
+    margin-bottom: 0;
+  }
+  
+  section.module h2{
+    margin-bottom: 40px;
+    font-size: 30px;
+  }
+  
+  section.module.content{
+   padding: 40px 0;
+   background: #ece7d5; 
+  }
+  
+  section.module.parallax{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+  }
+  
+  section.module.parallax:after{
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 8;
+  }
+
+  .container a{
+    padding: 10px 29px;
+    background: #e51e2a;
+    color: #ffffff;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-decoration: none;
+    border-radius: 40px;
+    
+}
+ 
+  section.module.parallax-1{
+    background-image: url("https://www.coca-cola.com.br/promotions/christmas-22/assets/images/home/996w/christmas22-banner.jpg?v=b65ba71987c6db874d197e452c0028fa");
+  }
+  
+  section.module.parallax-2{
+    background-image: url("https://aventurasnahistoria.uol.com.br/media/_versions/personagem/papai_noel_coca_capa_widelg.jpg");
+  }
+
+  section.module.parallax-3{
+    background-image: url("img/banner1.webp");
+  }
+  
+  section.module.parallax h1{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 70px;
+    z-index: 50;
+    text-transform: uppercase;
+  }
+
+  footer {
+    display: block;
+    width: 100%;
+    bottom: 0vh;
+    left: 0;
+    text-align: center;
+    background-color: #ffffff;
+    padding: 8px;
+    color: #b40b0b;
+    font-weight: 500;
+    letter-spacing: 1px;
+    
+}
